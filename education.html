@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Education</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #89f7fe, #66a6ff); /* soft blue gradient */
+      font-family: 'Poppins', sans-serif;
+    }
+    .education-card {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+      padding: 30px;
+      margin-bottom: 40px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .education-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+    .education-img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 20px;
+      border-radius: 50%;
+    }
+    h5 {
+      font-size: 1.5rem;
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #555;
+      font-size: 1rem;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container my-5">
+  <h1 class="text-center mb-5" style="color: #0d6efd;">My Education</h1>
+
+  <div class="row justify-content-center">
+
+    <!-- University -->
+    <div class="col-md-4 education-card mx-3">
+      <img src="https://media.glassdoor.com/lst2x/01/ba/8f/bf/open-theatre.jpg?signature=74aa4a741752e58f78e2487a946de83ef530fc221ef78800db1456f7d59cb41c" alt="University" class="education-img">
+      <h5>Lovely Professional University</h5>
+      <p>B.Tech CSE | CGPA: 6.4<br>(Aug'22 - Present)</p>
+    </div>
+
+    <!-- College -->
+    <div class="col-md-4 education-card mx-3">
+      <img src="https://www.schooldekho.org/storage/gallery//aydtyu8rnsgso0ookk4o404k0osso08.jpg" alt="College" class="education-img">
+      <h5>Tirumala Junior College</h5>
+      <p>Intermediate | 94%<br>(Apr'20 - Mar'22)</p>
+    </div>
+
+    <!-- School -->
+    <div class="col-md-4 education-card mx-3">
+      <img src="https://content3.jdmagicbox.com/comp/karimnagar/dc/9999px878.x878.100330143446.m3p8dc/catalogue/paramita-schools-padmanagar-karimnagar-schools-ik0djfd7a1.jpg" alt="School" class="education-img">
+      <h5>Tirumala High School</h5>
+      <p>Matriculation | 90.2%<br>(Apr'19 - Mar'20)</p>
+    </div>
+
+  </div>
+
+  <div class="text-center mt-5">
+    <a href="index.html" class="btn btn-primary">⬅ Back to Home</a>
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* blue sky gradient */
+      font-family: 'Poppins', sans-serif;
+    }
+    .project-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      padding: 20px;
+      margin-bottom: 30px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    .project-img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+    h5 {
+      font-size: 1.5rem;
+      color: #007bff;
+      margin-top: 15px;
+    }
+    p {
+      font-size: 1rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container my-5">
+  <h1 class="text-center mb-5" style="color: #0d6efd;">Projects</h1>
+
+  <div class="row justify-content-center">
+
+  
+
+    <!-- BCG GenAI Job Simulation -->
+    <div class="col-md-5 project-card text-center mx-3">
+      <img src="https://cdn-icons-png.flaticon.com/512/3003/3003984.png" alt="AI Chatbot" class="project-img">
+      <h5>BCG GenAI Job Simulation</h5>
+      <p><strong>Platform:</strong> Forage (Mar'25)</p>
+      <p>• Developed an AI-powered financial chatbot.<br>
+         • Used Python and pandas to manipulate financial data.<br>
+         • Extracted insights from 10-K and 10-Q reports.</p>
+    </div>
+
+    <!-- Retail & E-commerce Recommender System -->
+    <div class="col-md-5 project-card text-center mx-3">
+      <img src="https://cdn-icons-png.flaticon.com/512/2910/2910791.png" alt="Recommender System" class="project-img">
+      <h5>Retail & E-commerce Recommender System</h5>
+      <p><strong>Stack:</strong> Python, TensorFlow, Scikit-Learn (Oct'24)</p>
+      <p>• Built a recommendation system using collaborative and content-based filtering.<br>
+         • Applied matrix factorization and deep learning for better predictions.<br>
+         • Analyzed user behavior to boost personalization and sales.</p>
+    </div>
+
+    <!-- Income Tax Prediction -->
+    <div class="col-md-5 project-card text-center mx-3">
+      <img src="https://cdn-icons-png.flaticon.com/512/2897/2897761.png" alt="Tax Prediction" class="project-img">
+      <h5>Income Tax Prediction</h5>
+      <p><strong>Stack:</strong> Python, Scikit-Learn (Sep'23)</p>
+      <p>• Built a model to predict tax liabilities using income and deduction data.<br>
+         • Used Linear Regression and Random Forest models.<br>
+         • Focused on feature engineering and performance optimization.</p>
+    </div>
+
+  </div>
+
+  <div class="text-center mt-5">
+    <a href="index.html" class="btn btn-primary">⬅ Back to Home</a>
+  </div>
+
+</div>
+
+</body>
+</html>
